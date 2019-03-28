@@ -2,13 +2,6 @@
 
 class GameObject;
 
-#define D3DFVF_VERTEX (D3DFVF_XYZRHW|D3DFVF_DIFFUSE)
-struct Vertex
-{
-	FLOAT x, y, z, rhw;
-	DWORD color;
-};
-
 class Graphic
 {
 public:
