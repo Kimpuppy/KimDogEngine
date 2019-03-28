@@ -20,8 +20,3 @@ void TestScene::Init()
 	obj->GetComponent<SpriteRenderer>()->LoadSprite(L"Resources/test.png");
 	Add(obj, 0);
 }
-
-void TestScene::Update()
-{
-	Scene::Update();
-}
