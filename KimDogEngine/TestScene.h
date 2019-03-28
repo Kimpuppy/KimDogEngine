@@ -9,7 +9,6 @@ public:
 
 public:
 	void Init() override;
-	void Update() override;
 
 public:
 	GameObject * obj;
