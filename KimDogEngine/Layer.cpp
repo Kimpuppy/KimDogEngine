@@ -2,15 +2,6 @@
 #include "Layer.h"
 #include "GameObject.h"
 
-bool operator==(const std::shared_ptr<GameObject> & val1, const GameObject * val2)
-{
-	if (val1.get() == val2)
-	{
-		return true;
-	}
-	return false;
-}
-
 Layer::Layer()
 {
 }
